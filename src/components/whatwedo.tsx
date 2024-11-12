@@ -6,7 +6,7 @@ function Whatwedo() {
             <div className='Whatwedo-section'>
                 <h1 className='Whatwedo-h1'>What we do</h1>
                 <p className='whatwedo-p1'>Explore the wide range of services we offer. Hover over each image to discover how we can help your business with tailored solutions for web development, design, performance, and SEO optimization.</p>
-                <div className='whatwedo-content'>
+                <div className='whatwedo-content '>
 
                     <div className='conten-div'>
                         <img className='conten-image' src={img} alt="" />

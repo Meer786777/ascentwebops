@@ -17,6 +17,7 @@
     font-weight: bold;
     font-family: "Open Sans", sans-serif;
     text-align: center;
+    color: white;
 }
 .herosection-p1{
     width: 850px;
@@ -24,6 +25,7 @@
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     text-align: center;
+    color: white;
     margin-top: 30px;
 }
 .herosection-btn{
@@ -50,4 +52,65 @@
     font-family: "Open Sans", sans-serif;
     color:#EDFD3B;
     font-weight:600;
+}
+.navbar-parent {
+    position: fixed;   
+    top: 10px;           
+    left: 50%;     
+    z-index: 999;
+    transform: translateX(-50%); 
+    width: 1000px;       
+    height: 55px;         
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 35px;  
+    cursor: pointer;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.contact-btn{
+    width: 140px;
+    height: 40px;
+    border-radius: 35px;
+
+}
+.nav-link {
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 20px;
+    border-radius: 35px;
+    background-color: transparent;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    display: inline-flex; /* Ensures content is centered */
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link:hover {
+    width: 140px;
+    height: 40px;
+    border-radius: 35px;
+    background-color: black;
+    transform: scale(1.1); /* Slight scale effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    text-decoration: none; /* Ensure text is not underlined */
+}
+
+.nav-link:focus {
+    outline: none; /* Remove focus outline */
+}
+.nav-logo{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+.nav-link-con{
+    font-size: 16px;
+    color: #EDFD3B;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
 }
