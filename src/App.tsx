@@ -7,6 +7,7 @@ import Whatwedo from './components/whatwedo';
 import Whatweprovide from './components/whatweprovide';
 import WhyUS from './components/whyUs';
 import Review from './components/review';
+import Footer from './assets/footer';
 function App() {
   return (
     <>
@@ -17,7 +18,9 @@ function App() {
     <Whatweprovide/>
     <WhyUS/>
     <Review/>
+    <Footer/>
     </div>
+
     </>
   );
 }

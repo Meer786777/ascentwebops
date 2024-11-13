@@ -10,7 +10,7 @@ const Accordion: React.FC<AccordionProps> = ({ title, text }) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="p-4 mt-5 bg-gradient-to-r from-gray-200/30 to-gray-500/70 backdrop-blur-3xl rounded-2xl shadow-xl">
+    <div className="p-3 pl-4 pr-4 mt-5 bg-gradient-to-r from-gray-200/30 to-gray-500/70 backdrop-blur-3xl rounded-3xl shadow-xl">
       <button onClick={() => setOpen(!open)} className="w-full flex justify-between">
         <span className="Accordion-h1">{title}</span>
         <span className="plusminus">{open ? "-" : "+"}</span>
