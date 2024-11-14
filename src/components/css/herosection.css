@@ -28,7 +28,7 @@
     color: white;
     margin-top: 30px;
 }
-.herosection-btn{
+ .herosection-btn{
     width: 380px;
     height: 45px;
     background-color: transparent;
@@ -39,7 +39,7 @@
     border: 1px solid #EDFD3B;
     margin-top: 30px;
     transform: background-color 3s ease;
-    cursor: pointer;
+   /* cursor: pointer;  */
 }
 .herosection-btn:hover{
     background-color: #EDFD3B;
@@ -52,7 +52,75 @@
     font-family: "Open Sans", sans-serif;
     color:#EDFD3B;
     font-weight:600;
+} */
+
+/* texting */
+
+
+
+.herosection-btn {
+    width: 380px;
+    height: 45px;
+    background-color: transparent;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #EDFD3B;
+    margin-top: 30px;
+    cursor: "*";
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s ease;
 }
+
+.herosection-btn:hover {
+    background-color: #EDFD3B;
+}
+
+.herosection-p2 {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #EDFD3B;
+    font-weight: 600;
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+.herosection-btn:hover .herosection-p2 {
+    color: black;
+}
+
+/* Hide the default cursor over the HeroSection */
+.HeroSection-texture {
+    cursor: none;
+    position: relative;
+}
+
+/* Custom cursor styling */
+.custom-cursor {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background-color: #EDFD3B; /* Cursor color */
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform 0.1s ease;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+/* Enlarge the cursor when hovering over the button */
+.custom-cursor.hovering {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    transition: width 0.2s, height 0.2s, background-color 0.2s;
+}
+
+
+
+
 .navbar-parent {
     position: fixed;   
     top: 10px;           
@@ -63,7 +131,7 @@
     height: 55px;         
     background: rgba(255, 255, 255, 0.2);
     border-radius: 35px;  
-    cursor: pointer;
+cursor: pointer; 
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px); 
     border: 1px solid rgba(255, 255, 255, 0.3); 
@@ -107,7 +175,7 @@
     color: white;
     font-weight: 500;
     font-family: "Open Sans", sans-serif;
-    cursor: pointer;
+cursor: pointer; 
 }
 .nav-link-con{
     font-size: 16px;
@@ -120,7 +188,7 @@
     font-size: 14px;
     color: rgb(119, 119, 119);
     font-family: "Open Sans", sans-serif;
-    cursor: pointer;
+cursor: pointer; 
 }
 .footer-links:hover{
     color: white;
