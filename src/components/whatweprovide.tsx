@@ -1,4 +1,4 @@
-import './css/sec1.css';
+import '../css/sec1.css';
 import * as React from 'react';
 import Accordion from '../assets/Accordion';
 

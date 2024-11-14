@@ -1,21 +1,22 @@
-import'../components/css/herosection.css'
+import { Link } from 'react-router-dom';
+import '../css/herosection.css';
 
-function Navbar(){
-    return(
+function Navbar() {
+    return (
         <div className="navbar-parent pl-4 pr-2 flex justify-between items-center">
             <div className='left'>
-        <h3 className='nav-logo'>AscentWebOps</h3>
+                <Link className='nav-logo' to="/">AscentWebOps</Link>
             </div>
 
             <div className='right flex justify-between items-center gap-4'>
-                <a className='nav-link' href="#">Services</a>
-                <a className='nav-link' href="#">About</a>
-                <div className='bg-black contact-btn flex justify-center items-center ' >
-                    <a className='nav-link-con' href="#">Contact</a>
+                <Link className='nav-link' to="/services">Services</Link>
+                <Link className='nav-link' to="/about">About</Link>
+                <div className='bg-black contact-btn flex justify-center items-center'>
+                    <Link className='nav-link-con' to="/contact">Contact</Link>
                 </div>
             </div>
-       </div>
-    )
+        </div>
+    );
 }
 
-export default Navbar
+export default Navbar;

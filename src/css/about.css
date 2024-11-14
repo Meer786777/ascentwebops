@@ -1,0 +1,64 @@
+.ab-h1{
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.ab-h2{
+    font-size: 28px;
+    color: white;
+    margin-top: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.ab-h3{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.ab-p1{
+    font-size: 16px;
+    color: white;
+    margin-top: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    width: 95%;
+}
+.section{
+    margin-top: 50px;
+}
+.link{
+    font-size: 24px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.input{
+    height: 60px;
+    border: none ;
+    border-radius: 35px;
+    padding: 1rem;
+    color: white;
+    margin-top: 15px;
+    background-color: rgba(115, 115, 115, 0.578);
+}
+.input:focus{
+    border: none;
+    outline: 1px solid #EDFD3B; ;
+}
+.contact-btn-2{
+    width: 180px;
+    height: 44px;
+    margin-top: 30px;
+    color: #EDFD3B;
+    border: 1px solid #EDFD3B;
+    border-radius: 15px;
+}
+.contact-btn-2:hover{
+    border-radius: 15px;
+    color: black;
+    background-color: #EDFD3B;
+}

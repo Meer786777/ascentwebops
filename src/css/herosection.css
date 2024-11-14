@@ -2,7 +2,7 @@
     /* max-width: 1600px; */
     width: 100%;
     height: 850px;
-    background-image: url('../../assets/images/HeroSectionTexture.png');
+    background-image: url('../assets/images/HeroSectionTexture.png');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 

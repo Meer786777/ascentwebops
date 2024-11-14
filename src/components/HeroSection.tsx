@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './css/herosection.css';
+import '../css/herosection.css';
 
 function HeroSection() {
     const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });

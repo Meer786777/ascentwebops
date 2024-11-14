@@ -1,27 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import './App.css';
 import Navbar from './assets/navbar';
-import HeroSection from './components/HeroSection';
-import Whatwedo from './components/whatwedo';
-import Whatweprovide from './components/whatweprovide';
-import WhyUS from './components/whyUs';
-import Review from './components/review';
+import Home from './pages/Home';
+import About from './pages/About';
+import Services from './pages/services';
+import Contact from './pages/Contact';
 import Footer from './assets/footer';
+
 function App() {
   return (
-    <>
-        <Navbar/>
-    <div className='App'>
-    <HeroSection/>
-    <Whatwedo/>
-    <Whatweprovide/>
-    <WhyUS/>
-    <Review/>
-    <Footer/>
-    </div>
-
-    </>
+    <Router>
+      <Navbar />
+      <div className='App'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/services' element={<Services />} />
+          <Route path='/Contact' element={<Contact />} />
+        </Routes>
+      </div>
+      <div className='App'>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
