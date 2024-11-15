@@ -1,0 +1,339 @@
+.Whatwedo-section{
+    max-width: 1600px;
+    width: 100%;
+    padding: 50px;
+}
+.Whatwedo-h1{
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.whatwedo-p1{
+    width: 880px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.whatwedo-content{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.conten-div{
+    width: 400px;
+    height: 300px;
+cursor: pointer; 
+    background-color: black;
+    background-image: url('./images/HeroSectionTexture.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.conten-div img{
+    width: 100%;
+    height: 100%;
+}
+.conten-h1{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    display: none;
+    color: white;
+}
+.conten-p1{
+    width: 90%;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    display: none;
+    color: white;
+}
+.conten-div:hover .conten-image{
+    display: none;
+}
+.conten-div:hover .conten-h1{
+    display: block;
+}
+.conten-div:hover .conten-p1{
+    display: block;
+}
+.Accordion-h1{
+    font-size: 22px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+.accordion-text{
+    font-size: 16px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+.plusminus{
+    font-size: 24px;
+    font-weight: 400;
+    color: #EDFD3B;
+}
+.whyus-h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
+
+}
+
+.box {
+    width: 265px;
+    height: 175px;
+    background-image: url('./images/whyus2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.375rem;
+   cursor: pointer; 
+}
+
+.Whatwedo-section {
+    overflow-x: hidden;
+}
+
+.scroller-container {
+    position: relative;
+}
+
+.scroller-inner {
+    position: relative;
+}
+
+.scrolling {
+    animation: scroll 20s linear infinite;
+}
+
+.scrolling:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* Prevent animation jump on hover */
+.scroller-container::before,
+.scroller-container::after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    pointer-events: none;
+}
+
+.scroller-container::before {
+    left: 0;
+}
+
+.scroller-container::after {
+    right: 0;
+}
+.whyus-h1{
+    font-size: 14px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.box-2 {
+    width: 295px;
+    height: 175px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    border-radius: 0.375rem;
+cursor: pointer; 
+    backdrop-filter: blur(10px); /* Apply blur to the background */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for glass effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
+.review-message{
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+}
+.review-name{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+.see-more{
+    color: #EDFD3B;
+margin-left: 10px;
+transition: border-bottom 1.5s;
+cursor: pointer; 
+}
+.see-more:hover{
+    border-bottom: 1px solid #EDFD3B;
+}
+/* Laptops/Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .Whatwedo-section{
+        width: 100%;
+        padding: 40px;
+    }
+}
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .Whatwedo-section{
+        max-width: 1600px;
+        width: 100%;
+        padding: 20px;
+    }
+    .Whatwedo-h1{
+        font-size: 20px;
+    }
+    .whatwedo-p1{
+        margin-top: 15px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .whatwedo-content{
+        margin-top: 20px;
+    }
+    .conten-h1{
+        font-size: 20px;
+    }
+    .conten-p1{
+        font-size: 12px;
+        width: 100%;
+    }
+    .Accordion-h1{
+        font-size: 18px;
+    }
+    .accordion-text{
+        font-size: 12px;    
+    }
+    .plusminus{
+        font-size: 22px;
+        font-weight: 400;
+        color: #EDFD3B;
+    }
+    .whyus-h3{
+        margin-top: 15px;
+    } 
+    .whyus-h1{
+        font-size: 12px;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .review-message{
+        font-size: 12px;
+        color: white;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        margin-top: 10px;
+    }
+    .review-name{
+        font-size: 14px;
+        color: white;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+    }
+    .conten-div{
+        width: 350px;
+        height: 300px;
+    }
+}
+
+/* Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .Whatwedo-section{
+        padding: 15px;
+    }
+    .Whatwedo-h1{
+        font-size: 18px;
+    }
+    .whatwedo-p1{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .whatwedo-content{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .conten-h1{
+        font-size: 18px;
+    }
+    .Accordion-h1{
+        font-size: 18px;
+    }
+    .accordion-text{
+        font-size: 14px;
+    }
+    .whyus-h3{
+        font-size: 18px;
+    }
+
+    .scrolling {
+        animation: scroll 30s linear infinite;
+    }
+}
+/* Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+    .Whatwedo-section{
+        padding: 8px;
+    }
+    .Whatwedo-h1{
+        font-size: 16px;
+    }
+    .whatwedo-p1{
+        margin-top: 20px;
+        width: 100%;
+        font-size: 12px;
+    }
+    .whatwedo-content{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .conten-h1{
+        font-size: 16px;
+    }
+    .Accordion-h1{
+        font-size: 16px;
+    }
+    .accordion-text{
+        font-size: 12px;
+    }
+    .whyus-h3{
+        font-size: 16px;
+    }
+
+    .scrolling {
+        animation: scroll 30s linear infinite;
+    }
+}
