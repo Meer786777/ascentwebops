@@ -14,9 +14,9 @@ function Footer() {
                     </div>
                     <div className="flex justify-start items-start flex-col gap-1">
                         {/* Replace static anchor tags with Link components */}
-                        <Link className="footer-links" to="/services">Services</Link>
-                        <Link className="footer-links" to="/about">About Us</Link>
-                        <Link className="footer-links" to="/contact">Contact</Link>
+                        <Link className="footer-links" to="ascentwebops/services">Services</Link>
+                        <Link className="footer-links" to="ascentwebops/about">About Us</Link>
+                        <Link className="footer-links" to="ascentwebops/contact">Contact</Link>
                     </div>
                 </div>
             </div>
