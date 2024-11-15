@@ -15,10 +15,10 @@ function App() {
       <Navbar />
       <div className='App'>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/services' element={<Services />} />
-          <Route path='/Contact' element={<Contact />} />
+          <Route path='ascentwebops/' element={<Home />} />
+          <Route path='ascentwebops/about' element={<About />} />
+          <Route path='ascentwebops/services' element={<Services />} />
+          <Route path='ascentwebops/Contact' element={<Contact />} />
         </Routes>
       </div>
       <div className='App'>
