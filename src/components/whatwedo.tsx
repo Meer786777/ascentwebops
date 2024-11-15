@@ -1,5 +1,5 @@
 import '../css/sec1.css'
-import img from '../assets/images/image1agency.jpg'
+import img from '../css/images/image1agency.jpg'
 function Whatwedo() {
     return (
         <>
