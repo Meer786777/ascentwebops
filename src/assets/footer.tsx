@@ -6,8 +6,8 @@ function Footer() {
                 <div className="flex justify-between items-start">
                     <div className="flex justify-start items-start flex-col gap-1">
                         <a className="footer-links" href="mailto:ascentwebops@gmail.com">ascentwebops@gmail.com</a>
-                        <a className="footer-links" href="https://twitter.com/ascentwebops" target="_blank" rel="noopener noreferrer">@ascentwebops</a>
-                        <a className="footer-links" href="tel:+923052101706">03052101706</a>
+                        <a className="footer-links" href="https://www.instagram.com/ascentwebops/" target="_blank" rel="noopener noreferrer">@ascentwebops</a>
+                        <a className="footer-links" href="tel:+92 320 0336650">+92 320 0336650</a>
                     </div>
                     <div className="flex justify-start items-start flex-col gap-1">
                         <a className="footer-links" href="#">Services</a>
@@ -16,7 +16,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="footer-rights footer-links">
+            <div className="footer-rights footer-links width-full">
                     <p>© {new Date().getFullYear()} AscentWebOps. All Rights Reserved.</p>
                 </div>
         </>

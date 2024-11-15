@@ -8,7 +8,7 @@ function Navbar() {
                 <Link className='nav-logo' to="/">AscentWebOps</Link>
             </div>
 
-            <div className='right flex justify-between items-center gap-4'>
+            <div className='right flex justify-between items-center gap-2'>
                 <Link className='nav-link' to="/services">Services</Link>
                 <Link className='nav-link' to="/about">About</Link>
                 <div className='bg-black contact-btn flex justify-center items-center'>

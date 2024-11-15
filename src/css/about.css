@@ -55,10 +55,9 @@
     margin-top: 30px;
     color: #EDFD3B;
     border: 1px solid #EDFD3B;
-    border-radius: 15px;
+    border-radius: 35px;
 }
 .contact-btn-2:hover{
-    border-radius: 15px;
     color: black;
     background-color: #EDFD3B;
 }

@@ -191,3 +191,149 @@ cursor: pointer;
 .see-more:hover{
     border-bottom: 1px solid #EDFD3B;
 }
+/* Laptops/Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .Whatwedo-section{
+        width: 100%;
+        padding: 40px;
+    }
+}
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .Whatwedo-section{
+        max-width: 1600px;
+        width: 100%;
+        padding: 20px;
+    }
+    .Whatwedo-h1{
+        font-size: 20px;
+    }
+    .whatwedo-p1{
+        margin-top: 15px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .whatwedo-content{
+        margin-top: 20px;
+    }
+    .conten-h1{
+        font-size: 20px;
+    }
+    .conten-p1{
+        font-size: 12px;
+        width: 100%;
+    }
+    .Accordion-h1{
+        font-size: 18px;
+    }
+    .accordion-text{
+        font-size: 12px;    
+    }
+    .plusminus{
+        font-size: 22px;
+        font-weight: 400;
+        color: #EDFD3B;
+    }
+    .whyus-h3{
+        margin-top: 15px;
+    } 
+    .whyus-h1{
+        font-size: 12px;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .review-message{
+        font-size: 12px;
+        color: white;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        margin-top: 10px;
+    }
+    .review-name{
+        font-size: 14px;
+        color: white;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+    }
+    .conten-div{
+        width: 350px;
+        height: 300px;
+    }
+}
+
+/* Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .Whatwedo-section{
+        padding: 15px;
+    }
+    .Whatwedo-h1{
+        font-size: 18px;
+    }
+    .whatwedo-p1{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .whatwedo-content{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .conten-h1{
+        font-size: 18px;
+    }
+    .Accordion-h1{
+        font-size: 18px;
+    }
+    .accordion-text{
+        font-size: 14px;
+    }
+    .whyus-h3{
+        font-size: 18px;
+    }
+
+    .scrolling {
+        animation: scroll 30s linear infinite;
+    }
+}
+/* Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+    .Whatwedo-section{
+        padding: 8px;
+    }
+    .Whatwedo-h1{
+        font-size: 16px;
+    }
+    .whatwedo-p1{
+        margin-top: 20px;
+        width: 100%;
+        font-size: 12px;
+    }
+    .whatwedo-content{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .conten-h1{
+        font-size: 16px;
+    }
+    .Accordion-h1{
+        font-size: 16px;
+    }
+    .accordion-text{
+        font-size: 12px;
+    }
+    .whyus-h3{
+        font-size: 16px;
+    }
+
+    .scrolling {
+        animation: scroll 30s linear infinite;
+    }
+}

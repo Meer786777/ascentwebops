@@ -75,8 +75,8 @@ function Contact() {
                     <h2 className='ab-h2'>Our Contact Details</h2>
                     <p className='ab-p1'>You can also reach us through the following channels:</p>
                     <ul className='contact-list'>
-                        <li className='ab-p1'>Email: <a href="mailto:contact@ascentwebops.com">contact@ascentwebops.com</a></li>
-                        <li className='ab-p1'>Phone: <a href="tel:+1234567890">+123-456-7890</a></li>
+                        <li className='ab-p1'>Email: <a href="mailto:ascentwebops@gmail.com">ascentwebops@gmail.com</a></li>
+                        <li className='ab-p1'>Phone: <a href="tel:+923200336650">+92 320 0336650</a></li>
                     </ul>
                 </section>
 
