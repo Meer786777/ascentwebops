@@ -1,3 +1,6 @@
+import React from 'react';
+import { Link } from 'react-router-dom';  // Import Link from react-router-dom
+
 function Footer() {
     return (
         <>
@@ -10,15 +13,16 @@ function Footer() {
                         <a className="footer-links" href="tel:+92 320 0336650">+92 320 0336650</a>
                     </div>
                     <div className="flex justify-start items-start flex-col gap-1">
-                        <a className="footer-links" href="#">Services</a>
-                        <a className="footer-links" href="#">About us</a>
-                        <a className="footer-links" href="#">Contact</a>
+                        {/* Replace static anchor tags with Link components */}
+                        <Link className="footer-links" to="/services">Services</Link>
+                        <Link className="footer-links" to="/about">About Us</Link>
+                        <Link className="footer-links" to="/contact">Contact</Link>
                     </div>
                 </div>
             </div>
             <div className="footer-rights footer-links width-full">
-                    <p>© {new Date().getFullYear()} AscentWebOps. All Rights Reserved.</p>
-                </div>
+                <p>© {new Date().getFullYear()} AscentWebOps. All Rights Reserved.</p>
+            </div>
         </>
     );
 }
