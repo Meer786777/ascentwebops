@@ -12,3 +12,9 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 }
+/* Mobile Devices (up to 768px) */
+@media (max-width: 768px) {
+  .custom-cursor {
+    display: none;
+  }
+}
