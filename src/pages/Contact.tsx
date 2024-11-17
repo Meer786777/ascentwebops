@@ -2,12 +2,25 @@ import React, { useEffect, useState } from 'react';
 function Contact() {
     const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
     const [isHovering, setIsHovering] = useState(false);
+    const [isDesktop, setIsDesktop] = useState(true);
+
+    // Check if the device is larger than 768px
+    const checkDeviceWidth = () => {
+        setIsDesktop(window.innerWidth >= 768);
+    };
 
     useEffect(() => {
+        // Check on initial load
+        checkDeviceWidth();
+
+        // Add resize event listener to detect when screen size changes
+        window.addEventListener('resize', checkDeviceWidth);
+
         const button = document.querySelector('.herosection-btn') as HTMLElement | null;
 
+        if (!isDesktop) return;
+
         const handleMouseMove = (e: MouseEvent) => {
-            // Update the custom cursor position
             setCursorPosition({ x: e.clientX, y: e.clientY });
 
             if (button) {
@@ -26,21 +39,23 @@ function Contact() {
 
         window.addEventListener('mousemove', handleMouseMove);
         if (button) {
-            button.addEventListener('mouseleave', handleMouseLeave);
             button.addEventListener('mouseenter', () => setIsHovering(true));
             button.addEventListener('mouseleave', () => setIsHovering(false));
+            button.addEventListener('mouseleave', handleMouseLeave);
         }
 
         // Clean up event listeners on component unmount
         return () => {
             window.removeEventListener('mousemove', handleMouseMove);
+            window.removeEventListener('resize', checkDeviceWidth);
             if (button) {
-                button.removeEventListener('mouseleave', handleMouseLeave);
                 button.removeEventListener('mouseenter', () => setIsHovering(true));
                 button.removeEventListener('mouseleave', () => setIsHovering(false));
+                button.removeEventListener('mouseleave', handleMouseLeave);
             }
         };
-    }, []);
+    }, [isDesktop]); // Re-run effect when screen size changes
+
     return (
         <>
             <div className='Whatwedo-section'>
