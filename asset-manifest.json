@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ascentwebops/static/css/main.9de56acb.css",
-    "main.js": "/ascentwebops/static/js/main.ccd2f105.js",
+    "main.css": "/ascentwebops/static/css/main.a2ba3d4c.css",
+    "main.js": "/ascentwebops/static/js/main.414f6e6a.js",
     "static/js/453.ed3810f9.chunk.js": "/ascentwebops/static/js/453.ed3810f9.chunk.js",
     "static/media/image1agency.jpg": "/ascentwebops/static/media/image1agency.31898265df78ca5e7074.jpg",
     "static/media/whyus2.jpg": "/ascentwebops/static/media/whyus2.a677918587e568dc0b11.jpg",
     "static/media/HeroSectionTexture.png": "/ascentwebops/static/media/HeroSectionTexture.ff6f3146ba35fef8a6d9.png",
     "index.html": "/ascentwebops/index.html",
     "static/media/menu.svg": "/ascentwebops/static/media/menu.c345dbd827260a209b78a799d8b8ad58.svg",
-    "main.9de56acb.css.map": "/ascentwebops/static/css/main.9de56acb.css.map",
-    "main.ccd2f105.js.map": "/ascentwebops/static/js/main.ccd2f105.js.map",
+    "main.a2ba3d4c.css.map": "/ascentwebops/static/css/main.a2ba3d4c.css.map",
+    "main.414f6e6a.js.map": "/ascentwebops/static/js/main.414f6e6a.js.map",
     "453.ed3810f9.chunk.js.map": "/ascentwebops/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9de56acb.css",
-    "static/js/main.ccd2f105.js"
+    "static/css/main.a2ba3d4c.css",
+    "static/js/main.414f6e6a.js"
   ]
 }
