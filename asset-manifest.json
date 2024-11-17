@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ascentwebops/static/css/main.a2ba3d4c.css",
-    "main.js": "/ascentwebops/static/js/main.b3aa62d1.js",
+    "main.js": "/ascentwebops/static/js/main.f7cf23fa.js",
     "static/js/453.ed3810f9.chunk.js": "/ascentwebops/static/js/453.ed3810f9.chunk.js",
     "static/media/image1agency.jpg": "/ascentwebops/static/media/image1agency.31898265df78ca5e7074.jpg",
     "static/media/whyus2.jpg": "/ascentwebops/static/media/whyus2.a677918587e568dc0b11.jpg",
@@ -9,11 +9,11 @@
     "index.html": "/ascentwebops/index.html",
     "static/media/menu.svg": "/ascentwebops/static/media/menu.c345dbd827260a209b78a799d8b8ad58.svg",
     "main.a2ba3d4c.css.map": "/ascentwebops/static/css/main.a2ba3d4c.css.map",
-    "main.b3aa62d1.js.map": "/ascentwebops/static/js/main.b3aa62d1.js.map",
+    "main.f7cf23fa.js.map": "/ascentwebops/static/js/main.f7cf23fa.js.map",
     "453.ed3810f9.chunk.js.map": "/ascentwebops/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2ba3d4c.css",
-    "static/js/main.b3aa62d1.js"
+    "static/js/main.f7cf23fa.js"
   ]
 }
