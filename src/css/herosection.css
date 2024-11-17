@@ -193,6 +193,35 @@ cursor: pointer;
 .footer-links:hover{
     color: white;
 }
+
+
+
+.navbar-menu {
+    position: absolute; /* Position the dropdown relative to the parent */
+    top: 100%; /* Position it below the navbar */
+    left: 0; /* Align it to the left of the navbar */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 5px 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    z-index: 1000;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.menu-item {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.menu-item:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Hover effect */
+}
+
 /* Laptops/Desktops (1025px to 1440px) */
 @media (min-width: 1025px) and (max-width: 1440px) {
     .HeroSection-texture{
